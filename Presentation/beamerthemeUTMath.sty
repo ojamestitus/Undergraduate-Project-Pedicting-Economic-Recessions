@@ -1,0 +1,80 @@
+%Name               : UTMathBeamerTheme.sty
+%Author             : Cody Lorton
+
+\ProvidesPackage{BeamerthemeUTMath}
+
+\usetheme{CambridgeUS}
+
+
+\setbeamertemplate{navigation symbols}{}%remove navigation symbols
+
+%These are the colors that are defined for the UT theme.  Feel free to use them throughout your slides.
+%location of cambridge us HTML codes: http://latexcolor.com/
+\definecolor{UTsmokey}{RGB}{76,77,79}
+
+\definecolor{blue}{HTML}{0033AA}
+\definecolor{UTorange}{RGB}{247,127,0}
+\definecolor{LadyVolBlue}{RGB}{0,108,147}
+\definecolor{UTlightgrey}{RGB}{138,140,143}
+
+\definecolor{gold}{HTML}{CBA135}
+\definecolor{green}{RGB}{0,86,63}
+\definecolor{yellow}{RGB}{233,175,43}
+
+
+%This changes the colors used by the CambridgeUS theme.  If you use a different theme you might need to play around with these options.  
+\setbeamercolor*{palette primary}{use=structure,fg=green,bg=yellow}
+\setbeamercolor*{title}{fg=green}
+\setbeamercolor*{titlelike}{fg=green}
+\setbeamercolor*{palette secondary}{use=structure,fg=yellow,bg=green}
+\setbeamercolor*{palette tertiary}{use=structure,fg=green,bg=yellow}
+\usecolortheme[named=green]{structure}
+
+%UT logo in most of the slides
+%\logo{\includegraphics[scale=0.04]{utlogo-large.jpg}}
+
+%This line of code is used to get rid of the slide numbers that appear on the bottom of the CambridgeUS theme.  I am not sure if this also works for other themes.
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor~~\beamer@ifempty{\insertshortinstitute}{}{(\insertshortinstitute)}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+%    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} % DELETED
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+%This will be used to capitalize the section name at section transitions.
+\newcommand{\insertsectionHEAD}{%
+	\expandafter\insertsectionHEADaux\insertsectionhead}
+	\newcommand{\insertsectionHEADaux}[3]{\MakeUppercase{#3}
+}
+
+%This will give the section transitions.  The commented code below can be used to provide a table of contents slide at section transitions if you desire that instead.
+\AtBeginSection[]
+{
+\begingroup
+\setbeamercolor{background canvas}{bg=green}
+  \begin{frame}[plain]
+  	\centering
+    \vfill\usebeamerfont{section title}\textcolor{yellow}{\insertsectionHEAD}\vfill
+  \end{frame}
+\endgroup
+}
+
+%\AtBeginSection[]
+%{
+%  \begin{frame}
+%    \frametitle{Table of Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
