@@ -1,0 +1,88 @@
+\begin{thebibliography}{10}
+
+\bibitem{NBER}
+Us business cycle expansions and contractions.
+\newblock https://www.nber.org/cycles.html.
+\newblock Accessed: 11-06-2019.
+
+\bibitem{dopke2017}
+Jörg Döpke, Ulrich Fritsche, and Christian Pierdzioch.
+\newblock Predicting recessions with boosted regression trees.
+\newblock {\em International Journal of Forecasting}, 33(4):745--759, Oct 2017.
+
+\bibitem{estrella1991}
+Arturo Estrella.
+\newblock The term structure as a predictor of real economic activity.
+\newblock {\em The journal of finance}, 46(2):555--576, 1991.
+
+\bibitem{estrella1996}
+Arturo Estrella.
+\newblock The yield curve as a predictor of recessions in the united states and
+  europe.
+\newblock pages 324--337, 1996.
+
+\bibitem{estrella2006}
+Arturo Estrella and Mary~R. Trubin.
+\newblock The yield curve as a leading indicator: some practical issues.
+\newblock {\em Current Issues in Economics and Finance}, (125), 2006.
+
+\bibitem{filardo1999}
+Andrew~J. Filardo.
+\newblock How reliable are recession prediction models?
+\newblock {\em Economic review}, 84(2):35--55, 1999.
+
+\bibitem{serena}
+Serena Ng.
+\newblock Boosting recessions.
+
+\bibitem{h15}
+Board of~Governors of~the Federal Reserve~System.
+\newblock H.15 selected interest rates.
+\newblock
+  https://www.federalreserve.gov/datadownload/Download.aspx?rel=H15\&series=d7e27b7b09a3a7feae95b9c61781fcd8\&filetype=csv\&label=include\&layout=seriescolumn\&from=01/01/1919\&to=01/31/2019.
+\newblock Accessed: 11-16-2019.
+
+\bibitem{cpi}
+Federal Reserve~Bank of~St.~Louis.
+\newblock Consumer price index for all urban consumers: All items in u.s. city
+  average.
+\newblock https://fred.stlouisfed.org/series/CPIAUCSL.
+\newblock Accessed: 11-16-2019.
+
+\bibitem{indpro}
+Federal Reserve~Bank of~St.~Louis.
+\newblock Industrial production index.
+\newblock https://fred.stlouisfed.org/series/INDPRO.
+\newblock Accessed: 11-16-2019.
+
+\bibitem{usrec}
+Federal Reserve~Bank of~St.~Louis.
+\newblock Nber based recession indicators for the united states from the period
+  following the peak through the trough.
+\newblock https://fred.stlouisfed.org/series/USREC.
+\newblock Accessed: 11-16-2019.
+
+\bibitem{proc}
+Xavier Robin, Natacha Turck, Alexandre Hainard, Natalia Tiberti, Frédérique
+  Lisacek, Jean-Charles Sanchez, and Markus Müller.
+\newblock proc: an open-source package for r and s+ to analyze and compare roc
+  curves.
+\newblock {\em BMC Bioinformatics}, 12:77, 2011.
+
+\bibitem{tests}
+Thomas~G. Tape.
+\newblock Interpreting diagnostic tests.
+\newblock http://gim.unmc.edu/dxtests/Default.htm.
+\newblock Accessed: 12-1-2019.
+
+\bibitem{aic}
+E.~J. Wagenmakers and S.~Farrell.
+\newblock Aic model selection using akaike weights.
+\newblock {\em Psychonomic Bulletin \& Review}, 11(1):192--196, 2004.
+
+\bibitem{wright2006}
+Jonathan~H. Wright.
+\newblock The yield curve and predicting recessions.
+\newblock Technical report, 2006.
+
+\end{thebibliography}
